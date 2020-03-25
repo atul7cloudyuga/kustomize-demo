@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: rsvp-app
-        image: nkhare/rsvpapp
+        image: atul7cloudyuga/rsvpapp
         imagePullPolicy: Always
         env:
         - name: MONGODB_HOST
