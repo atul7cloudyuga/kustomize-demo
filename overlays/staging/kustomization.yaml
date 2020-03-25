@@ -8,7 +8,7 @@ patchesStrategicMerge:
 configMapGenerator:
 - literals:
   - TEXT1="Welcome to"
-  - TEXT2="RSVP Staging"
+  - TEXT2="RSVP Staging-new"
   name: rsvpconfig-staging
 images:
 - name: atul7cloudyuga/rsvp-demo
