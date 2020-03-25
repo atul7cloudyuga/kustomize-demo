@@ -4,10 +4,15 @@ namePrefix: prod-
 commonLabels:
   env: prod
 patchesStrategicMerge:
-- staging-configmap.yaml 
+- staging-configmap.yaml
 - replica-count.yaml
 configMapGenerator:
-- name: rsvpconfig-staging
-  literals:
-    - TEXT1="Welcome to"
-    - TEXT2="Production"
+- literals:
+  - TEXT1="Welcome to"
+  - TEXT2="Production"
+  name: rsvpconfig-staging
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: atul7cloudyuga/rsvp-demo
+  newTag: c66770a83fda05df86bb4349672f07702fa9b281
