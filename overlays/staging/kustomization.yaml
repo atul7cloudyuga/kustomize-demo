@@ -9,4 +9,4 @@ configMapGenerator:
 - name: rsvpconfig-staging
   literals:
     - TEXT1="Welcome to"
-    - TEXT2="Staging"
+    - TEXT2="RSVP Staging"
