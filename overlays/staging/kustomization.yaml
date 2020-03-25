@@ -10,3 +10,7 @@ configMapGenerator:
   literals:
     - TEXT1="Welcome to"
     - TEXT2="RSVP Staging"
+images:
+- name: atul7cloudyuga/rsvp-demo
+  newTag: atul
+
