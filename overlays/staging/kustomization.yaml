@@ -12,6 +12,6 @@ configMapGenerator:
   name: rsvpconfig-staging
 images:
 - name: atul7cloudyuga/rsvp-demo
-  newTag: 25360737841ba3483421bfe58ee1225405bac91d
+  newTag: 4da25c5fa49d17e20be195cb01a61171cef6adfb
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
