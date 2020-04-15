@@ -14,5 +14,7 @@ configMapGenerator:
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
+- name: atul7cloudyuga/cy-pilot-2
+  newTag: 501d54445048e7d2d28c025d515f95a7d2cf449a
 - name: atul7cloudyuga/rsvp-demo
   newTag: 4da25c5fa49d17e20be195cb01a61171cef6adfb
