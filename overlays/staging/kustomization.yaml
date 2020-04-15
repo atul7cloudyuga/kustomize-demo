@@ -11,6 +11,8 @@ configMapGenerator:
   - TEXT2="RSVP Staging-new"
   name: rsvpconfig-staging
 images:
+- name: atul7cloudyuga/cy-pilot-2
+  newTag: 501d54445048e7d2d28c025d515f95a7d2cf449a
 - name: atul7cloudyuga/rsvp-demo
   newTag: 67f15be97ba6f70ea51a8c44dd6fdcafa888f81d
 apiVersion: kustomize.config.k8s.io/v1beta1
